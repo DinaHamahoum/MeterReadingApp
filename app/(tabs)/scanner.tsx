@@ -53,7 +53,7 @@ export default function ScannerScreen() {
     <View style={styles.center}>
       <Ionicons name="barcode-outline" size={64} color="#1A56CC" />
       <Text style={styles.title}>Scanner</Text>
-      <Text style={styles.sub}>Ouvrez la caméra pour scanner</Text>
+      <Text style={styles.sub}>Ouvrez la caméra pour scanner un code-barres</Text>
 
       <TouchableOpacity style={styles.btn} onPress={() => setCameraOpen(true)}>
         <Ionicons name="camera-outline" size={20} color="#fff" />
